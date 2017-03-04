@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+{// 函数只有一个参数}
+{$str|strtoupper}<br>
+
+{// substr($str, 0, 4)}
+{// ### 占位符，就代表前面的变量}
+{$str|substr=###,0,4}<br>
+
+{//substr(strtoupper($str),0,4)}
+{$str|strtoupper|substr=###,0,4}<br>
+{//strtoupper(substr($str,0,4))}
+{$str|substr=###,0,4|strtoupper}<br>
+
+{// date('Y-m-d H:i:s', 时间戳)}
+{$t|date='Y-m-d H:i:s',###}<br>
+{$tt|date='Y-m-d H:i:s',###}
+</body>
+</html>
+
+
+
+
+

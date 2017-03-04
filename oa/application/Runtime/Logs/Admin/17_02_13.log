@@ -1,0 +1,964 @@
+[ 2017-02-13T09:29:41+08:00 ] 127.0.0.1 /Dept/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T09:29:42+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T09:36:56+08:00 ] 127.0.0.1 /Dept/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T09:37:17+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T09:37:31+08:00 ] 127.0.0.1 /Dept/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T09:37:50+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T09:39:48+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-13T09:40:05+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T09:48:18+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+SQL: INSERT INTO `oa_dept` (`dept_name`,`dept_pid`,`dept_sort`,`dept_remark`) VALUES ('行政部','0','4','行政部门...') [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T09:48:20+08:00 ] 127.0.0.1 /Dept/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T09:59:02+08:00 ] 127.0.0.1 /Dept/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T09:59:23+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+SQL: INSERT INTO `oa_dept` (`dept_name`,`dept_pid`,`dept_sort`,`dept_remark`) VALUES ('测试部','3','32','测试部门...') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T09:59:25+08:00 ] 127.0.0.1 /Dept/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T09:59:37+08:00 ] 127.0.0.1 /Dept/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T10:00:03+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T10:12:32+08:00 ] 127.0.0.1 /Dept/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1186 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1129 行.
+SQL: INSERT INTO `oa_dept` (`dept_name`,`dept_pid`,`dept_sort`,`dept_remark`) VALUES ('运维部','3','33','ddasdsad') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T10:12:35+08:00 ] 127.0.0.1 /Dept/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T15:31:45+08:00 ] 127.0.0.1 /Dept/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:04:55+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:11:11+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'd2.dept_name' in 'field list'
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_name,d2.dept_name,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept on d1.dept_pid=d2.dept_id  
+ERR: 1054:Unknown column 'd2.dept_name' in 'field list'
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_name,d2.dept_name,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept on d1.dept_pid=d2.dept_id  
+
+[ 2017-02-13T17:11:38+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d2.dept_name,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+
+[ 2017-02-13T17:12:27+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d2.dept_name,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0020s ]
+
+[ 2017-02-13T17:13:57+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+
+[ 2017-02-13T17:15:58+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:16:37+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:21:42+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+NOTIC: [8] Undefined index: dept_pid C:\work\dev\phpstudy\WWW\myoa\application\Admin\Common\function.php 第 5 行.
+
+[ 2017-02-13T17:22:48+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+
+[ 2017-02-13T17:24:36+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+
+[ 2017-02-13T17:26:03+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:33:05+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d1.dept_level,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:33:24+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d1.dept_level,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:33:38+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d1.dept_level,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:40:06+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d1.dept_level,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:46:55+08:00 ] 127.0.0.1 /Dept/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d1.dept_level,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:46:57+08:00 ] 127.0.0.1 /Dept/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: dept_list C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\b1e37ed15c4fcecdfd7d1ee4b7ff07dc.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:47:08+08:00 ] 127.0.0.1 /Dept/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: dept_list C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\b1e37ed15c4fcecdfd7d1ee4b7ff07dc.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:50:20+08:00 ] 127.0.0.1 /Dept/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:53:58+08:00 ] 127.0.0.1 /Dept/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:54:04+08:00 ] 127.0.0.1 /Dept/edit/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:54:10+08:00 ] 127.0.0.1 /Dept/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T17:59:07+08:00 ] 127.0.0.1 /Dept/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T17:59:33+08:00 ] 127.0.0.1 /Dept/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1188 行.
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T18:08:56+08:00 ] 127.0.0.1 /Dept/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1188 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T18:11:56+08:00 ] 127.0.0.1 /Dept/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1188 行.
+SQL: SELECT `dept_id` FROM `oa_dept`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1131 行.
+NOTIC: [8] Undefined index: dept_id C:\work\dev\phpstudy\WWW\myoa\application\Admin\Controller\DeptController.class.php 第 107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T18:11:59+08:00 ] 127.0.0.1 /Dept/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T18:17:39+08:00 ] 127.0.0.1 /Dept/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `oa_dept` WHERE `dept_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `oa_dept`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T18:17:49+08:00 ] 127.0.0.1 /Dept/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: validate C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1188 行.
+SQL: SELECT `dept_id` FROM `oa_dept`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model.class.php 第 1131 行.
+SQL: UPDATE `oa_dept` SET `dept_name`='测试部666',`dept_pid`='3',`dept_sort`='32',`dept_remark`='测试部门哈哈哈   ' WHERE `dept_id` = '6' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T18:17:52+08:00 ] 127.0.0.1 /Dept/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT d1.dept_id,d1.dept_name,d1.dept_pid,d1.dept_level,d2.dept_name dname,d1.dept_sort,d1.dept_remark FROM oa_dept d1 left join oa_dept d2 on d1.dept_pid=d2.dept_id   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+NOTIC: [8] Use of undefined constant dept_id - assumed 'dept_id' C:\work\dev\phpstudy\WWW\myoa\application\Runtime\Cache\Admin\c89ad5afca0a00da5ff4c90b0ea5c82e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+

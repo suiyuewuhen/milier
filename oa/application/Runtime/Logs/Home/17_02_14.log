@@ -1,0 +1,246 @@
+[ 2017-02-14T11:53:44+08:00 ] 127.0.0.1 /Home/Relation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_student`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-14T11:55:20+08:00 ] 127.0.0.1 /Home/Relation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_student`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_department` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-14T11:56:44+08:00 ] 127.0.0.1 /Home/Relation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_student`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_department` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-14T11:57:34+08:00 ] 127.0.0.1 /Home/Relation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_student`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_department` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-14T11:57:46+08:00 ] 127.0.0.1 /Home/Relation/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_student`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_department` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-14T14:43:58+08:00 ] 127.0.0.1 /Home/Relation/seflFind
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:seflFind
+
+[ 2017-02-14T14:44:04+08:00 ] 127.0.0.1 /Home/Relation/selfFind
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_department` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_department`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_department` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-14T14:44:42+08:00 ] 127.0.0.1 /Home/Relation/selfFind
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_department` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_department`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `tp_department` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-14T14:56:57+08:00 ] 127.0.0.1 /Home/Relation/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_department` [ RunTime:0.0040s ]
+SQL: DELETE FROM `tp_department` WHERE `id` = 7 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_name C:\work\dev\phpstudy\WWW\myoa\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0020s ]
+SQL: DELETE FROM `tp_student` WHERE `sdept` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-14T15:49:40+08:00 ] 127.0.0.1 /Home/AR/add_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_student` (`sno`,`sname`,`spasswd`,`sage`,`ssex`,`sdept`,`stime`) VALUES ('10016','ccc','289dff07669d7a23de0ef88d2f7129e7','20','女','4','2017-02-14 15:49:40') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-14T15:51:36+08:00 ] 127.0.0.1 /Home/AR/save_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0020s ]
+SQL: UPDATE `tp_student` SET `sname`='ddd',`sage`='21' WHERE `sno` = 10016 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-14T15:53:08+08:00 ] 127.0.0.1 /Home/AR/del_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0040s ]
+SQL: DELETE FROM `tp_student` WHERE `sno` = 10016 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-14T15:55:06+08:00 ] 127.0.0.1 /Home/AR/find_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_student` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-14T15:56:01+08:00 ] 127.0.0.1 /Home/AR/find_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_student` WHERE `sno` = 10004 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-14T16:00:43+08:00 ] 127.0.0.1 /Home/AR/find_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_student` WHERE `sname` = 'aaa' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

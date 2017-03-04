@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+{//读取TP的配置文件}
+{$Think.config.URL_MODEL}<br>
+{$Think.config.APP_AUTOLOAD_LAYER}<br>
+<hr />
+
+{//读取php/TP中的内置常量}
+{$Think.PHP_VERSION}<br>
+{$Think.MODULE_NAME}<br>
+{$Think.CONTROLLER_NAME}<br>
+{$Think.ACTION_NAME}<br>
+<hr />
+
+{//读取php预定义数组}
+{$Think.SERVER.REQUEST_URI}<br>
+{$Think.get.id}<br>
+{$Think.get.name}
+<hr />
+
+{//特殊用法}
+{$Think.now}
+</body>
+</html>

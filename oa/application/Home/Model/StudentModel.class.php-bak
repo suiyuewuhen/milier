@@ -1,0 +1,86 @@
+<?php
+//1. 声明命名空间
+namespace Home\Model;
+//2. 引入Model基类
+use Think\Model;
+
+//3. 编写模型类，继承模型基类
+class StudentModel extends Model{
+    //使用trueTableName定义实际表名
+    protected $trueTableName = 'stu';
+    
+    // 使用 $tableName定义数据表名,不加前缀
+    //protected $tableName = 'stu';
+    // 自定义Student表中的主键字段名
+    protected $pk = 'sno';
+    // 自定义Student表中字段名称
+    protected $fields = array(
+        'sno','sname','spasswd','sage','ssex','sdept','stime'
+    );
+    // 设置映射
+    protected $_map = array(
+        'name'   => 'sname',
+        'passwd' => 'spasswd',
+        'age'    => 'sage',
+        'sex'    => 'ssex'
+    );
+    // 定义验证规则
+    protected $_validate = array(
+        // sname : 要验证的字段
+        // require : TP底层定义的正则表达式，不能为空
+        // 学生名不能为空 : 验证未通过时的报错信息
+        // 1 : 必须验证该字段
+        // regex : 验证方式，regex就是正则表达式方式进行验证
+        // 3 : 新增或者修改时都进行验证
+        array('sname', 'require', '学生名不能为空', 1, 'regex', 3),
+        array('spasswd', 'password', '密码不符合规则', 1, 'regex', 3),
+        // 验证密码相同时比较特殊，使用的是表单字段
+        array('re-passwd', 'spasswd', '两次密码输入不相同', 1, 'confirm', 3),
+        // checkAge: 当前模型类中的方法
+        //callback: 在当前模型类中，自定义函数来进行验证
+        array('sage', 'checkAge', '您输入的年龄不正确', 2, 'callback', 3),
+        // checkSex: 自定义验证函数
+        // function: 使用自定义函数来进行验证
+        array('ssex', 'checkSex', '您输入的性别不正确', 2, 'function', 3),
+    );
+    
+    function checkAge($age){
+        if($age < 0 || $age > 150){
+            return false;
+        }
+        return true;
+    }
+    
+    protected $_auto = array(
+        // stiem : 自动填充的数据表字段
+        // setNowTime : 使用的具体函数名
+        // 1 : 在添加时自动填充
+        // function : 使用函数来进行填充
+        array('stime', 'setNowTime', 1, 'function'),
+        // pwd2md5 : 具体使用完成方法
+        // callback : 当前模型类中的方法
+        array('spasswd', 'pwd2md5', 3, 'callback'),
+    );
+    
+    function pwd2md5($passwd){
+        return md5($passwd);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
